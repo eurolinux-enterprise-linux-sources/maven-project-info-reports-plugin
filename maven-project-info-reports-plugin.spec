@@ -1,6 +1,6 @@
 Name:           maven-project-info-reports-plugin
 Version:        2.6
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Maven Project Info Reports Plugin
 
 Group:          Development/Libraries
@@ -82,6 +82,9 @@ popd
 %doc %{name}-%{version}/LICENSE %{name}-%{version}/NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.6-8
+- Mass rebuild 2013-12-27
+
 * Mon Aug 26 2013 Michal Srb <msrb@redhat.com> - 2.6-7
 - Migrate away from mvn-rpmbuild (Resolves: #997511)
 - Add missing BR: maven-resources-plugin
